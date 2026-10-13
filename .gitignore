@@ -1,0 +1,11 @@
+target/
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+_docx_extract/
+_assignment.zip
+*.log
+.DS_Store

@@ -1,0 +1,1064 @@
+{
+  "nodes": [
+    {
+      "id": "N1",
+      "parentId": null,
+      "name": "Node 1",
+      "accountNumber": "ACC1001",
+      "transactions": [
+        {
+          "txnId": "T1",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 1050.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T10:00:00Z",
+          "description": "TRANSFER transaction T1 on ACC1001"
+        },
+        {
+          "txnId": "T2",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 1100.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T11:00:00Z",
+          "description": "POS transaction T2 on ACC1001"
+        },
+        {
+          "txnId": "T3",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 1150.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T12:00:00Z",
+          "description": "ATM transaction T3 on ACC1001"
+        },
+        {
+          "txnId": "T4",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 1200.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T13:00:00Z",
+          "description": "SALARY transaction T4 on ACC1001"
+        },
+        {
+          "txnId": "T5",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 1250.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T14:00:00Z",
+          "description": "TRANSFER transaction T5 on ACC1001"
+        }
+      ]
+    },
+    {
+      "id": "N2",
+      "parentId": "N1",
+      "name": "Node 2",
+      "accountNumber": "ACC1002",
+      "transactions": [
+        {
+          "txnId": "T6",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 1300.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T15:00:00Z",
+          "description": "POS transaction T6 on ACC1002"
+        },
+        {
+          "txnId": "T7",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 1350.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T16:00:00Z",
+          "description": "ATM transaction T7 on ACC1002"
+        },
+        {
+          "txnId": "T8",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 1400.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T17:00:00Z",
+          "description": "SALARY transaction T8 on ACC1002"
+        },
+        {
+          "txnId": "T9",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 1450.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T18:00:00Z",
+          "description": "TRANSFER transaction T9 on ACC1002"
+        },
+        {
+          "txnId": "T10",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 1500.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T19:00:00Z",
+          "description": "POS transaction T10 on ACC1002"
+        }
+      ]
+    },
+    {
+      "id": "N3",
+      "parentId": "N1",
+      "name": "Node 3",
+      "accountNumber": "ACC1003",
+      "transactions": [
+        {
+          "txnId": "T11",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 1550.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T20:00:00Z",
+          "description": "ATM transaction T11 on ACC1003"
+        },
+        {
+          "txnId": "T12",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 1600.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T21:00:00Z",
+          "description": "SALARY transaction T12 on ACC1003"
+        },
+        {
+          "txnId": "T13",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 1650.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T22:00:00Z",
+          "description": "TRANSFER transaction T13 on ACC1003"
+        },
+        {
+          "txnId": "T14",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 1700.0,
+          "currency": "INR",
+          "timestamp": "2025-01-01T23:00:00Z",
+          "description": "POS transaction T14 on ACC1003"
+        },
+        {
+          "txnId": "T15",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 1750.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T00:00:00Z",
+          "description": "ATM transaction T15 on ACC1003"
+        }
+      ]
+    },
+    {
+      "id": "N4",
+      "parentId": "N2",
+      "name": "Node 4",
+      "accountNumber": "ACC1004",
+      "transactions": [
+        {
+          "txnId": "T16",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 1800.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T01:00:00Z",
+          "description": "SALARY transaction T16 on ACC1004"
+        },
+        {
+          "txnId": "T17",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 1850.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T02:00:00Z",
+          "description": "TRANSFER transaction T17 on ACC1004"
+        },
+        {
+          "txnId": "T18",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 1900.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T03:00:00Z",
+          "description": "POS transaction T18 on ACC1004"
+        },
+        {
+          "txnId": "T19",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 1950.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T04:00:00Z",
+          "description": "ATM transaction T19 on ACC1004"
+        },
+        {
+          "txnId": "T20",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 2000.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T05:00:00Z",
+          "description": "SALARY transaction T20 on ACC1004"
+        }
+      ]
+    },
+    {
+      "id": "N5",
+      "parentId": "N2",
+      "name": "Node 5",
+      "accountNumber": "ACC1005",
+      "transactions": [
+        {
+          "txnId": "T21",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 2050.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T06:00:00Z",
+          "description": "TRANSFER transaction T21 on ACC1005"
+        },
+        {
+          "txnId": "T22",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 2100.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T07:00:00Z",
+          "description": "POS transaction T22 on ACC1005"
+        },
+        {
+          "txnId": "T23",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 2150.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T08:00:00Z",
+          "description": "ATM transaction T23 on ACC1005"
+        },
+        {
+          "txnId": "T24",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 2200.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T09:00:00Z",
+          "description": "SALARY transaction T24 on ACC1005"
+        },
+        {
+          "txnId": "T25",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 2250.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T10:00:00Z",
+          "description": "TRANSFER transaction T25 on ACC1005"
+        }
+      ]
+    },
+    {
+      "id": "N6",
+      "parentId": "N3",
+      "name": "Node 6",
+      "accountNumber": "ACC1006",
+      "transactions": [
+        {
+          "txnId": "T26",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 2300.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T11:00:00Z",
+          "description": "POS transaction T26 on ACC1006"
+        },
+        {
+          "txnId": "T27",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 2350.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T12:00:00Z",
+          "description": "ATM transaction T27 on ACC1006"
+        },
+        {
+          "txnId": "T28",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 2400.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T13:00:00Z",
+          "description": "SALARY transaction T28 on ACC1006"
+        },
+        {
+          "txnId": "T29",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 2450.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T14:00:00Z",
+          "description": "TRANSFER transaction T29 on ACC1006"
+        },
+        {
+          "txnId": "T30",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 2500.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T15:00:00Z",
+          "description": "POS transaction T30 on ACC1006"
+        }
+      ]
+    },
+    {
+      "id": "N7",
+      "parentId": "N3",
+      "name": "Node 7",
+      "accountNumber": "ACC1007",
+      "transactions": [
+        {
+          "txnId": "T31",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 2550.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T16:00:00Z",
+          "description": "ATM transaction T31 on ACC1007"
+        },
+        {
+          "txnId": "T32",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 2600.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T17:00:00Z",
+          "description": "SALARY transaction T32 on ACC1007"
+        },
+        {
+          "txnId": "T33",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 2650.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T18:00:00Z",
+          "description": "TRANSFER transaction T33 on ACC1007"
+        },
+        {
+          "txnId": "T34",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 2700.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T19:00:00Z",
+          "description": "POS transaction T34 on ACC1007"
+        },
+        {
+          "txnId": "T35",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 2750.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T20:00:00Z",
+          "description": "ATM transaction T35 on ACC1007"
+        }
+      ]
+    },
+    {
+      "id": "N8",
+      "parentId": "N4",
+      "name": "Node 8",
+      "accountNumber": "ACC1008",
+      "transactions": [
+        {
+          "txnId": "T36",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 2800.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T21:00:00Z",
+          "description": "SALARY transaction T36 on ACC1008"
+        },
+        {
+          "txnId": "T37",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 2850.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T22:00:00Z",
+          "description": "TRANSFER transaction T37 on ACC1008"
+        },
+        {
+          "txnId": "T38",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 2900.0,
+          "currency": "INR",
+          "timestamp": "2025-01-02T23:00:00Z",
+          "description": "POS transaction T38 on ACC1008"
+        },
+        {
+          "txnId": "T39",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 2950.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T00:00:00Z",
+          "description": "ATM transaction T39 on ACC1008"
+        },
+        {
+          "txnId": "T40",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 3000.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T01:00:00Z",
+          "description": "SALARY transaction T40 on ACC1008"
+        }
+      ]
+    },
+    {
+      "id": "N9",
+      "parentId": "N4",
+      "name": "Node 9",
+      "accountNumber": "ACC1009",
+      "transactions": [
+        {
+          "txnId": "T41",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 3050.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T02:00:00Z",
+          "description": "TRANSFER transaction T41 on ACC1009"
+        },
+        {
+          "txnId": "T42",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 3100.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T03:00:00Z",
+          "description": "POS transaction T42 on ACC1009"
+        },
+        {
+          "txnId": "T43",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 3150.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T04:00:00Z",
+          "description": "ATM transaction T43 on ACC1009"
+        },
+        {
+          "txnId": "T44",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 3200.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T05:00:00Z",
+          "description": "SALARY transaction T44 on ACC1009"
+        },
+        {
+          "txnId": "T45",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 3250.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T06:00:00Z",
+          "description": "TRANSFER transaction T45 on ACC1009"
+        }
+      ]
+    },
+    {
+      "id": "N10",
+      "parentId": "N5",
+      "name": "Node 10",
+      "accountNumber": "ACC1010",
+      "transactions": [
+        {
+          "txnId": "T46",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 3300.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T07:00:00Z",
+          "description": "POS transaction T46 on ACC1010"
+        },
+        {
+          "txnId": "T47",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 3350.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T08:00:00Z",
+          "description": "ATM transaction T47 on ACC1010"
+        },
+        {
+          "txnId": "T48",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 3400.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T09:00:00Z",
+          "description": "SALARY transaction T48 on ACC1010"
+        },
+        {
+          "txnId": "T49",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 3450.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T10:00:00Z",
+          "description": "TRANSFER transaction T49 on ACC1010"
+        },
+        {
+          "txnId": "T50",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 3500.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T11:00:00Z",
+          "description": "POS transaction T50 on ACC1010"
+        }
+      ]
+    },
+    {
+      "id": "N11",
+      "parentId": "N5",
+      "name": "Node 11",
+      "accountNumber": "ACC1011",
+      "transactions": [
+        {
+          "txnId": "T51",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 3550.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T12:00:00Z",
+          "description": "ATM transaction T51 on ACC1011"
+        },
+        {
+          "txnId": "T52",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 3600.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T13:00:00Z",
+          "description": "SALARY transaction T52 on ACC1011"
+        },
+        {
+          "txnId": "T53",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 3650.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T14:00:00Z",
+          "description": "TRANSFER transaction T53 on ACC1011"
+        },
+        {
+          "txnId": "T54",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 3700.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T15:00:00Z",
+          "description": "POS transaction T54 on ACC1011"
+        },
+        {
+          "txnId": "T55",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 3750.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T16:00:00Z",
+          "description": "ATM transaction T55 on ACC1011"
+        }
+      ]
+    },
+    {
+      "id": "N12",
+      "parentId": "N6",
+      "name": "Node 12",
+      "accountNumber": "ACC1012",
+      "transactions": [
+        {
+          "txnId": "T56",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 3800.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T17:00:00Z",
+          "description": "SALARY transaction T56 on ACC1012"
+        },
+        {
+          "txnId": "T57",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 3850.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T18:00:00Z",
+          "description": "TRANSFER transaction T57 on ACC1012"
+        },
+        {
+          "txnId": "T58",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 3900.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T19:00:00Z",
+          "description": "POS transaction T58 on ACC1012"
+        },
+        {
+          "txnId": "T59",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 3950.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T20:00:00Z",
+          "description": "ATM transaction T59 on ACC1012"
+        },
+        {
+          "txnId": "T60",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 4000.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T21:00:00Z",
+          "description": "SALARY transaction T60 on ACC1012"
+        }
+      ]
+    },
+    {
+      "id": "N13",
+      "parentId": "N7",
+      "name": "Node 13",
+      "accountNumber": "ACC1013",
+      "transactions": [
+        {
+          "txnId": "T61",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 4050.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T22:00:00Z",
+          "description": "TRANSFER transaction T61 on ACC1013"
+        },
+        {
+          "txnId": "T62",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 4100.0,
+          "currency": "INR",
+          "timestamp": "2025-01-03T23:00:00Z",
+          "description": "POS transaction T62 on ACC1013"
+        },
+        {
+          "txnId": "T63",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 4150.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T00:00:00Z",
+          "description": "ATM transaction T63 on ACC1013"
+        },
+        {
+          "txnId": "T64",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 4200.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T01:00:00Z",
+          "description": "SALARY transaction T64 on ACC1013"
+        },
+        {
+          "txnId": "T65",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 4250.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T02:00:00Z",
+          "description": "TRANSFER transaction T65 on ACC1013"
+        }
+      ]
+    },
+    {
+      "id": "N14",
+      "parentId": null,
+      "name": "Node 14",
+      "accountNumber": "ACC1014",
+      "transactions": [
+        {
+          "txnId": "T66",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 4300.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T03:00:00Z",
+          "description": "POS transaction T66 on ACC1014"
+        },
+        {
+          "txnId": "T67",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 4350.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T04:00:00Z",
+          "description": "ATM transaction T67 on ACC1014"
+        },
+        {
+          "txnId": "T68",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 4400.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T05:00:00Z",
+          "description": "SALARY transaction T68 on ACC1014"
+        },
+        {
+          "txnId": "T69",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 4450.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T06:00:00Z",
+          "description": "TRANSFER transaction T69 on ACC1014"
+        },
+        {
+          "txnId": "T70",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 4500.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T07:00:00Z",
+          "description": "POS transaction T70 on ACC1014"
+        }
+      ]
+    },
+    {
+      "id": "N15",
+      "parentId": "N14",
+      "name": "Node 15",
+      "accountNumber": "ACC1015",
+      "transactions": [
+        {
+          "txnId": "T71",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 4550.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T08:00:00Z",
+          "description": "ATM transaction T71 on ACC1015"
+        },
+        {
+          "txnId": "T72",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 4600.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T09:00:00Z",
+          "description": "SALARY transaction T72 on ACC1015"
+        },
+        {
+          "txnId": "T73",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 4650.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T10:00:00Z",
+          "description": "TRANSFER transaction T73 on ACC1015"
+        },
+        {
+          "txnId": "T74",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 4700.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T11:00:00Z",
+          "description": "POS transaction T74 on ACC1015"
+        },
+        {
+          "txnId": "T75",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 4750.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T12:00:00Z",
+          "description": "ATM transaction T75 on ACC1015"
+        }
+      ]
+    },
+    {
+      "id": "N16",
+      "parentId": "N15",
+      "name": "Node 16",
+      "accountNumber": "ACC1016",
+      "transactions": [
+        {
+          "txnId": "T76",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 4800.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T13:00:00Z",
+          "description": "SALARY transaction T76 on ACC1016"
+        },
+        {
+          "txnId": "T77",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 4850.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T14:00:00Z",
+          "description": "TRANSFER transaction T77 on ACC1016"
+        },
+        {
+          "txnId": "T78",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 4900.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T15:00:00Z",
+          "description": "POS transaction T78 on ACC1016"
+        },
+        {
+          "txnId": "T79",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 4950.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T16:00:00Z",
+          "description": "ATM transaction T79 on ACC1016"
+        },
+        {
+          "txnId": "T80",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 5000.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T17:00:00Z",
+          "description": "SALARY transaction T80 on ACC1016"
+        }
+      ]
+    },
+    {
+      "id": "N17",
+      "parentId": "N16",
+      "name": "Node 17",
+      "accountNumber": "ACC1017",
+      "transactions": [
+        {
+          "txnId": "T81",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 5050.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T18:00:00Z",
+          "description": "TRANSFER transaction T81 on ACC1017"
+        },
+        {
+          "txnId": "T82",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 5100.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T19:00:00Z",
+          "description": "POS transaction T82 on ACC1017"
+        },
+        {
+          "txnId": "T83",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 5150.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T20:00:00Z",
+          "description": "ATM transaction T83 on ACC1017"
+        },
+        {
+          "txnId": "T84",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 5200.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T21:00:00Z",
+          "description": "SALARY transaction T84 on ACC1017"
+        },
+        {
+          "txnId": "T85",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 5250.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T22:00:00Z",
+          "description": "TRANSFER transaction T85 on ACC1017"
+        }
+      ]
+    },
+    {
+      "id": "N18",
+      "parentId": null,
+      "name": "Node 18",
+      "accountNumber": "ACC1018",
+      "transactions": [
+        {
+          "txnId": "T86",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 5300.0,
+          "currency": "INR",
+          "timestamp": "2025-01-04T23:00:00Z",
+          "description": "POS transaction T86 on ACC1018"
+        },
+        {
+          "txnId": "T87",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 5350.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T00:00:00Z",
+          "description": "ATM transaction T87 on ACC1018"
+        },
+        {
+          "txnId": "T88",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 5400.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T01:00:00Z",
+          "description": "SALARY transaction T88 on ACC1018"
+        },
+        {
+          "txnId": "T89",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 5450.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T02:00:00Z",
+          "description": "TRANSFER transaction T89 on ACC1018"
+        },
+        {
+          "txnId": "T90",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 5500.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T03:00:00Z",
+          "description": "POS transaction T90 on ACC1018"
+        }
+      ]
+    },
+    {
+      "id": "N19",
+      "parentId": "N99",
+      "name": "Node 19",
+      "accountNumber": "ACC1019",
+      "transactions": [
+        {
+          "txnId": "T91",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 5550.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T04:00:00Z",
+          "description": "ATM transaction T91 on ACC1019"
+        },
+        {
+          "txnId": "T92",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 5600.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T05:00:00Z",
+          "description": "SALARY transaction T92 on ACC1019"
+        },
+        {
+          "txnId": "T93",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 5650.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T06:00:00Z",
+          "description": "TRANSFER transaction T93 on ACC1019"
+        },
+        {
+          "txnId": "T94",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 5700.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T07:00:00Z",
+          "description": "POS transaction T94 on ACC1019"
+        },
+        {
+          "txnId": "T95",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 5750.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T08:00:00Z",
+          "description": "ATM transaction T95 on ACC1019"
+        }
+      ]
+    },
+    {
+      "id": "N20",
+      "parentId": "N18",
+      "name": "Node 20",
+      "accountNumber": "ACC1020",
+      "transactions": [
+        {
+          "txnId": "T96",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 5800.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T09:00:00Z",
+          "description": "SALARY transaction T96 on ACC1020"
+        },
+        {
+          "txnId": "T97",
+          "direction": "CREDIT",
+          "txnType": "TRANSFER",
+          "amount": 5850.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T10:00:00Z",
+          "description": "TRANSFER transaction T97 on ACC1020"
+        },
+        {
+          "txnId": "T98",
+          "direction": "DEBIT",
+          "txnType": "POS",
+          "amount": 5900.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T11:00:00Z",
+          "description": "POS transaction T98 on ACC1020"
+        },
+        {
+          "txnId": "T99",
+          "direction": "CREDIT",
+          "txnType": "ATM",
+          "amount": 5950.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T12:00:00Z",
+          "description": "ATM transaction T99 on ACC1020"
+        },
+        {
+          "txnId": "T100",
+          "direction": "DEBIT",
+          "txnType": "SALARY",
+          "amount": 6000.0,
+          "currency": "INR",
+          "timestamp": "2025-01-05T13:00:00Z",
+          "description": "SALARY transaction T100 on ACC1020"
+        }
+      ]
+    }
+  ]
+}
