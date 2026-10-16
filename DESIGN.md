@@ -47,9 +47,12 @@ The same path-scoped visited set is used.
 
 With a single `parentId` per node, a cycle in the child adjacency list is the same cycle as in the parent pointers; both walks are guarded anyway so a future multi-edge dataset would still terminate.
 
-## Scaling / extensions
 
-- **Larger graphs**: keep the same indexes; add a depth cap on aggregate walks; consider precomputing `level` and `parentChain` at load time (Kahn / DFS with cycle check once).
-- **Mutability**: wrap `GraphStore` behind an interface and persist nodes in a table `(id, parent_id, …)` plus `transactions`. Recursive CTEs can replace in-memory DFS.
-- **Auth / multi-tenant**: a `GraphId` on every node, scoped indexes per graph.
-- **Search**: secondary indexes on `accountNumber`, `txnType`, and time range; the children-transactions endpoint is the start of that path.
+## Scaling
+
+**Today:** data is loaded once and lookups are O(1), but derived values (level, parent chain, cycle checks, per-level aggregates) are recomputed on every request. Scale in this order, adding each step only when measurements justify it.
+
+1. **Precompute at load time.** One BFS from the roots assigns every node's level and detects cycles once (unreached nodes are in a cycle, so the load fails). Store the parent chain and per-level subtree totals so requests become lookups. Use iteration instead of recursion for very deep trees.
+2. **Atomic reloads.** Keep all indexes and precomputed values in one immutable `Snapshot` behind an `AtomicReference`. A reload builds the new snapshot privately and swaps it in with one write, so readers never see a mix and a bad file leaves the old data live.
+3. **Cache and add instances.** Cache responses by `(nodeId, maxDepth)`, cleared on snapshot swap. Run several identical stateless instances behind a load balancer; each holds its own snapshot, so reads scale almost linearly.
+4. **Database when data outgrows memory.** Put `GraphStore` behind an interface. Keep the small tree structure in memory and move transactions to a table indexed on `(node_id, amount, txn_type)`. Use a closure table `(ancestor, descendant, depth)` so per-level aggregates become one `GROUP BY depth` query.
