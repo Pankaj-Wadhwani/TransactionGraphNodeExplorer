@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: transaction-graph-node-explorer
+
+graph:
+  dataset: classpath:transactions-graph-nodes.json
